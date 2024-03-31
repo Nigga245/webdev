@@ -165,24 +165,37 @@ label input[type="checkbox"] {
 }
 
 .choppa-styles input[type="text"],
-.choppa-styles input[type="password"] {
+.choppa-styles input[type="password"],
+.choppa-styles input[type="email"] {
     border-bottom: 1px solid black;
     border: solid 2px pink;
     color: pink;
 }
 
 .choppa-styles input[type="text"]::placeholder,
-.choppa-styles input[type="password"]::placeholder {
+.choppa-styles input[type="password"]::placeholder,
+.choppa-styles input[type="email"]::placeholder {
     color: pink;
 }
 
 .choppa-styles input[type="text"]:focus,
-.choppa-styles input[type="password"]:focus {
+.choppa-styles input[type="password"]:focus,
+.choppa-styles input[type="email"] {
     border-bottom: solid 1px pink;
 }
 
 .choppa-styles .form-footer {
     color: pink;
+}
+
+.choppa-styles button[type="submit"] {
+    background-color: pink;
+}
+
+.choppa-styles button[type="submit"]:hover {
+    background-color: #f5a2b0;
+    -webkit-text-stroke: pink 0.5px;
+
 }
 
 #luffybtn {
